@@ -1,1 +1,4 @@
-const os = requrie('os');
+const os = require('os');
+
+
+console.log(os)
