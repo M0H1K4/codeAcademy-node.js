@@ -34,15 +34,29 @@
 
 
 // const util = require('util');
-const getUserPromise = util.promisify(getUser);
+// const getUserPromise = util.promisify(getUser);
 
-getUserPromise(id)
-.then((user) => {
-    console.log(`User found! Their nickname is: ${user.nickname}`);
-})
-.catch((error) => {
-    console.log('User not found', error);
-});
+// getUserPromise(id)
+// .then((user) => {
+//     console.log(`User found! Their nickname is: ${user.nickname}`);
+// })
+// .catch((error) => {
+//     console.log('User not found', error);
+// });
 
-getUser(1) // -> `User not found`
-getUser(5) // -> `User found! Their nickname is: Teddy`
+// getUser(1) // -> `User not found`
+// getUser(5) // -> `User found! Their nickname is: Teddy`
+
+
+
+// const getTrailDistancePromise = util.promisify(getTrailDistance);
+
+// getTrailDistancePromise('North Country')
+//   .then((foundTrail) => {      
+//     const nickname = foundTrail.nickname;
+//     const mi = foundTrail.miles; 
+//     console.log(`The ${nickname} is ${mi} miles long!`);
+//   })
+//   .catch((error) => {
+//     console.log('Trail not found!', error);
+//   })
