@@ -88,7 +88,7 @@ let readDataCallback = (err, data) => {
 // file.txt file is loaded using the readFile method of the fs module
 fs.readFile("./file.txt", "utf-8", readDataCallback);
 
-// // setImmediate function runs immediately after the current poll phase is completed
-// setImmediate(() => {
-//   console.log("Welcome to Node.js");
-// });
+// setImmediate function runs immediately after the current poll phase is completed
+setImmediate(() => {
+  console.log("Welcome to Node.js");
+});
