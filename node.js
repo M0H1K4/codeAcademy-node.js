@@ -96,10 +96,4 @@
 // console.log(os)
 
 
-let events = require('events');
-
-let listenerCallback = (data) => {
-    console.log('Celebrate ' + data);
-}
-
-let myEmitter = new events.EventEmitter();
+// .
