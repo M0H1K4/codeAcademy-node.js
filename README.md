@@ -1,1 +1,2 @@
-# CodeAcademy ## Pro
+# CodeAcademy
+
